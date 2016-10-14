@@ -40,3 +40,7 @@ Restart Apache to activate the new panel:
 ```
 sudo service apache2 restart
 ```
+
+![alt text](https://raw.githubusercontent.com/cmer81/neutron-lbaas-dashboard-mirantis-mitaka/master/Capture%20du%202016-10-14%2021-47-24.png "screen 1")
+
+![alt text](https://github.com/cmer81/neutron-lbaas-dashboard-mirantis-mitaka/blob/master/Capture%20du%202016-10-14%2021-47-57.png?raw=true "screen 2")
