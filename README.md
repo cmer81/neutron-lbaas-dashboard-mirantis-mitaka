@@ -2,7 +2,7 @@ Add LBaaS panels to Dashboard Mitaka Mirantis!
 ===================
 
 
-The Dashboard panels for managing ***LBaaS v2*** are available starting with the Mitaka **Mirantis** release.
+The Dashboard panels for managing ***LBaaS v2*** are available starting with the Mitaka **Mirantis** release, after install plugins [LBaaS plugin for fuel](https://github.com/openstack/fuel-plugin-neutron-lbaas)
 
 ----------
 
