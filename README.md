@@ -7,6 +7,30 @@ The Dashboard panels for managing ***LBaaS v2*** are available starting with the
 ----------
 
 
+
+*LBaaS v2 has several new concepts to understand:*
+
+![alt text](http://docs.openstack.org/mitaka/networking-guide/_images/lbaasv2-diagram.png "Lbaasv2")
+
+**Load balancer**
+- *The load balancer occupies a neutron network port and has an IP address assigned from a subnet.*
+
+**Listener**
+- *Load balancers can listen for requests on multiple ports. Each one of those ports is specified by a listener.*
+
+**Pool**
+- *A pool holds a list of members that serve content through the load balancer.*
+
+**Member**
+- *Members are servers that serve traffic behind a load balancer. Each member is specified by the IP address and port that it uses to serve traffic.*
+
+**Health monitor**
+- *Members may go offline from time to time and health monitors divert traffic away from members that are not responding properly. Health monitors are associated with pools.*
+
+LBaaS v2 has multiple implementations via different service plug-ins. The two most common implementations use either an agent or the Octavia services. Both implementations use the LBaaS v2 API.
+
+----------
+
 **On your Controller**
 -------------
 
