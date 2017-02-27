@@ -36,6 +36,7 @@ LBaaS v2 has multiple implementations via different service plug-ins. The two mo
 
 Clone the neutron-lbaas-dashboard repository and check out the release branch that matches the installed version of Dashboard:
 ```
+apt-get install -y git
 cd /usr/local/src/sahara-dashboard
 git clone https://git.openstack.org/openstack/neutron-lbaas-dashboard
 cd neutron-lbaas-dashboard
